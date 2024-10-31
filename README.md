@@ -1,4 +1,4 @@
-# centos7-oracle21c
+# การติดตั้ง Oracle21c บน CentOS 7
 
 ## Step 1. Preinstall
 เตรียม os user สำหรับลง database โดยในที่นี้จะใช้เป็น user oracle เตรียมพร้อมตัว install โดยในขั้นตอนแรกๆแนะนำให้ใช้งาน root user โดยใช้คำสั่ง
