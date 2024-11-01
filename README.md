@@ -15,6 +15,10 @@ curl -o oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm https://yum.oracle.c
 ```bash
 yum -y localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
 ```
+หรือ
+```bash
+rpm -ivh --nodeps oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+```
 
 ## Step 2. Install base rpm
 Download file install ที่เป็น rpm จาก https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
