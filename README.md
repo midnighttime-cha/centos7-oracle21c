@@ -27,7 +27,7 @@ Download file install ที่เป็น rpm จาก https://www.oracle.com
 
 1. Install Common Prerequisites: Install these packages that are generally required by Oracle Database:
 ```bash
-sudo yum install -y binutils compat-libcap1 compat-libstdc++ gcc gcc-c++ glibc glibc-devel ksh libaio libaio-devel libX11 libXau libXi libXtst libgcc libstdc++ libstdc++-devel libxcb make smartmontools sysstat
+sudo yum install -y nano binutils compat-libcap1 compat-libstdc++ gcc gcc-c++ glibc glibc-devel ksh libaio libaio-devel libX11 libXau libXi libXtst libgcc libstdc++ libstdc++-devel libxcb make smartmontools sysstat
 ```
 2. Create Oracle User and Groups The preinstall package would typically create the oracle user and groups for you, but we can do it manually:
 ```bash
