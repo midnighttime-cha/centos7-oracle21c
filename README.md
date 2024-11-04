@@ -175,6 +175,7 @@ sqlplus / as sysdba
 ทำการกำหนด password ให้กับ user system ด้วยคำสั่ง
 ```bash
 alter user system identified by <กำหนด password>;
+
 ```
 
 ## แหล่งที่มาของข้อมูล
