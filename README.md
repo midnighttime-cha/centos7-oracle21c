@@ -31,10 +31,18 @@ sudo yum install -y nano binutils compat-libcap1 compat-libstdc++ gcc gcc-c++ gl
 ```
 2. Create Oracle User and Groups The preinstall package would typically create the oracle user and groups for you, but we can do it manually:
 ```bash
-sudo groupadd -g 54321 oinstall
-sudo groupadd -g 54322 dba
-sudo groupadd -g 54323 oper
-sudo useradd -u 54321 -g oinstall -G dba,oper oracle
+groupadd -g 54321 oinstall
+groupadd -g 54322 dba
+groupadd -g 54323 oper 
+#groupadd -g 54324 backupdba
+#groupadd -g 54325 dgdba
+#groupadd -g 54326 kmdba
+#groupadd -g 54327 asmdba
+#groupadd -g 54328 asmoper
+#groupadd -g 54329 asmadmin
+#groupadd -g 54330 racdba
+
+useradd -u 54321 -g oinstall -G dba,oper oracle
 ```
 3.Configure Kernel Parameters Manually set kernel parameters in `/etc/sysctl.conf` as follows:
 ```bash
